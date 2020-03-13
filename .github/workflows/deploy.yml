@@ -1,7 +1,9 @@
 name: deploy
 
 on:
-  push: [tags]
+  push:
+    tags:
+      - '*'
   repository_dispatch:
 
 jobs:
