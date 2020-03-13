@@ -48,4 +48,7 @@ module.exports = {
     //   },
     // },
   ],
-}
+  templates: {
+    ContentfulBlogPosts: '/blog-posts/:slug',
+  },
+};
